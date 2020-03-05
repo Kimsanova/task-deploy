@@ -1,0 +1,15 @@
+.contentTabs {
+  height: auto;
+  text-align: center;
+}
+
+.tabPane {
+  background-color: #fff;
+  padding: 0;
+}
+
+@media all and (max-width: 767px) {
+  .tabPane {
+    padding: 16px;
+  }
+}

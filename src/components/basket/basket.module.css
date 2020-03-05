@@ -1,0 +1,26 @@
+.basket {
+  padding: 13px 16px 20px;
+  background-color: #fff0db;
+}
+
+.basket hr {
+  margin: 10px 0 !important;
+}
+
+.title {
+  text-align: center;
+}
+
+.lastRow {
+  margin-bottom: 20px;
+}
+
+@media all and (max-width: 767px) {
+  .basket {
+    padding: 20px 24px;
+  }
+
+  .basket.isFlexbox {
+    padding-bottom: 36px;
+  }
+}
